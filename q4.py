@@ -1,0 +1,6 @@
+file = open("dataq4.txt", "r")
+content = file.read()
+file.close()
+words = content.split()
+word_count = len(words)
+print(f"Total number of words: {word_count}")
